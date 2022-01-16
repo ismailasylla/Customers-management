@@ -2,9 +2,9 @@
   "customers": [
     {
       "id": 1,
-      "first_name": "James",
-      "last_name": "Butterburg",
+      "name": "James",
       "membership": "Platinium",
+      "phone": "00-222-55-678",
       "address": {
         "street": "6649 N Blue Gum St",
         "city": "New Orleans",
@@ -14,9 +14,9 @@
     },
     {
       "id": 2,
-      "first_name": "Josephine",
-      "last_name": "Darakjy",
+      "name": "Josephine",
       "membership": "Pro",
+      "phone": "00-222-55-678",
       "address": {
         "street": "4 B Blue Ridge Blvd",
         "city": "Brighton",
@@ -26,9 +26,9 @@
     },
     {
       "id": 3,
-      "first_name": "Art",
-      "last_name": "Chemel",
+      "name": "Art",
       "membership": "Silver",
+      "phone": "00-222-55-678",
       "address": {
         "street": "8 W Cerritos Ave #54",
         "city": "Bridgeport",
