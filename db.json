@@ -1,40 +1,18 @@
 {
   "customers": [
     {
-      "id": 1,
-      "name": "James",
-      "membership": "Platinium",
-      "phone": "00-222-55-678",
-      "address": {
-        "street": "6649 N Blue Gum St",
-        "city": "New Orleans",
-        "state": "LA",
-        "zip": "70116"
-      }
+      "name": "John Doe",
+      "phone": "910928392098",
+      "address": "123 Sun Street",
+      "membership": "Platinum",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Josephine",
+      "name": "Mary Johnson",
+      "phone": "808937482734",
+      "address": "893 Main Voulevard",
       "membership": "Pro",
-      "phone": "00-222-55-678",
-      "address": {
-        "street": "4 B Blue Ridge Blvd",
-        "city": "Brighton",
-        "state": "MI",
-        "zip": "48116"
-      }
-    },
-    {
-      "id": 3,
-      "name": "Art",
-      "membership": "Silver",
-      "phone": "00-222-55-678",
-      "address": {
-        "street": "8 W Cerritos Ave #54",
-        "city": "Bridgeport",
-        "state": "NJ",
-        "zip": "08014"
-      }
+      "id": 2
     }
   ]
 }

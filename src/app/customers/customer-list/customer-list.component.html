@@ -1,22 +1,35 @@
-<table class="table">
+<h3>Customers</h3>
+<table class="table table-hover">
   <thead>
-    <tr>
+    <tr class="table-primary">
       <th scope="col">Name</th>
       <th scope="col">Phone</th>
       <th scope="col">Address</th>
       <th scope="col">Membership</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let customer of customers">
+    <!-- <tr>
+      <td
+        colspan="5"
+        class="alert alert-danger"
+        *ngIf="error$ | async as error"
+      >
+        {{ error }}
+      </td>
+    </tr> -->
+    <tr></tr>
+    <!-- <tr *ngFor="let customer of customers$ | async">
       <th scope="row">{{ customer.name }}</th>
       <td>{{ customer.phone }}</td>
-      <td>{{ customer.address.city }}</td>
+      <td>{{ customer.address }}</td>
       <td>{{ customer.membership }}</td>
-      <td>
-        <button class="btn btn-info m-2">Edit</button>
-        <button class="btn btn-danger">Delete</button>
-      </td>
-    </tr>
+      <th>
+        <a (click)="editCustomer(customer)">edit</a>
+        <br />
+        <a (click)="deleteCustomer(customer)">delete</a>
+      </th>
+    </tr> -->
   </tbody>
 </table>
